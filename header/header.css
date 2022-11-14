@@ -1,0 +1,74 @@
+*{
+	font-family: 'Radio Canada', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+html{
+	height: 100%;
+	min-width: 380px;
+}
+body {
+	background-color: #F3F4FB;
+}
+header {
+	display: flex;
+	flex-direction: column;
+	width: 100vw;
+	align-items: center;
+	justify-content: center;
+}
+.loggaochsearch {
+	width: 90vw;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+ul {
+	width: 90vw;
+	list-style-type: none;
+	display: flex;
+	justify-content: space-evenly;
+	margin-bottom: 1em;
+	flex-wrap: wrap;
+}
+.garanti {
+	background-color: #234C9F;
+	width: 90vw;
+	height: 36px;
+	border-radius: 5px;
+}
+.feelwell {
+	height: 4.5em;
+	margin: 1em;
+}
+.garanti > p {
+	text-align: center;
+	margin-top: 0.5em;
+}
+.search {
+	border: 1px solid grey;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	width: 10em;
+	height: 2em;
+	margin-top: 2.5em;
+	border-radius: 5px;
+	padding-left: 1em;
+}
+ul li{
+	margin: 1em 0 1em 1em;
+	font-weight: bold;
+}
+ul a{
+	text-decoration: none;
+	color: #414149;
+}
+li:last-child {
+	font-weight: 500;
+	
+}
+.ri-shopping-cart-2-line {
+	font-weight: 600;
+	
+}
