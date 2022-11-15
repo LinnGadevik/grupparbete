@@ -13,9 +13,10 @@ body {
 header {
 	display: flex;
 	flex-direction: column;
-	width: 100vw;
+	width: 100%;
 	align-items: center;
 	justify-content: center;
+	margin-right: 0;
 }
 .loggaochsearch {
 	width: 90vw;
@@ -36,14 +37,13 @@ ul {
 	width: 90vw;
 	height: 36px;
 	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 .feelwell {
 	height: 4.5em;
 	margin: 1em;
-}
-.garanti > p {
-	text-align: center;
-	margin-top: 0.5em;
 }
 .search {
 	border: 1px solid grey;
@@ -56,9 +56,10 @@ ul {
 	border-radius: 5px;
 	padding-left: 1em;
 }
-ul li{
+.kat > ul{
 	margin: 1em 0 1em 1em;
 	font-weight: bold;
+	text-align: center;
 }
 ul a{
 	text-decoration: none;
@@ -66,9 +67,35 @@ ul a{
 }
 li:last-child {
 	font-weight: 500;
-	
 }
-.ri-shopping-cart-2-line {
-	font-weight: 600;
-	
+.ri-account-circle-line {
+	font-weight: 400;
+	font-size: 1.5em;
+	text-align: center;
+}
+.garanti > p {
+	color: #F3F4FB;
+}
+.ri-hand-heart-line {
+	font-size: 1.5em;
+	padding-right: 0.5em;
+	color: #F3F4FB;
+}
+.konto{
+	margin-bottom: 0.5em;
+}
+a > .konto {
+	color: #234C9F;
+}
+@media (min-width: 650px){
+	.feelwell{
+		height: 6em;
+	    margin: 1em;
+	}
+	.search{
+		width: 13em;
+	    height: 2.5em;
+		
+	}
+   
 }
