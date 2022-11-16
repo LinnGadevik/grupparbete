@@ -32,6 +32,7 @@ ul {
 	margin-bottom: 1em;
 	flex-wrap: wrap;
 }
+<<<<<<< HEAD
 .garanti {
 	background-color: #234C9F;
 	width: 90vw;
@@ -40,11 +41,28 @@ ul {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+=======
+.garanti { 
+    background-color: #234C9F; 
+    width: 90%; 
+    height: 36px; 
+    border-radius: 5px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+>>>>>>> Header
 }
 .feelwell {
 	height: 4.5em;
 	margin: 1em;
 }
+<<<<<<< HEAD
+=======
+.garanti > p { 
+    text-align: center; 
+	color: #F3F4FB;
+}
+>>>>>>> Header
 .search {
 	border: 1px solid grey;
 	display: flex;
@@ -73,6 +91,7 @@ li:last-child {
 	font-size: 1.5em;
 	text-align: center;
 }
+<<<<<<< HEAD
 .garanti > p {
 	color: #F3F4FB;
 }
@@ -98,4 +117,10 @@ a > .konto {
 		
 	}
    
+=======
+.ri-hand-heart-line { 
+    font-size: 1.5em; 
+    padding-right: 0.5em; 
+    color: #F3F4FB; 
+>>>>>>> Header
 }
