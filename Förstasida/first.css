@@ -2,6 +2,7 @@
 	font-family: 'Radio Canada', sans-serif;
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
 }
 html{
 	height: 100%;
@@ -21,6 +22,7 @@ header {
     max-width: 100%; 
     align-items: center; 
     justify-content: center; 
+	margin-right: 0;
 } 
 .loggaochsearch { 
     width: 90vw; 
@@ -53,7 +55,7 @@ ul {
     text-align: center; 
 } 
 .search { 
-    border: 1px solid grey; 
+    border: 1px solid #414149; 
     display: flex; 
     justify-content: flex-start; 
     align-items: center; 
@@ -241,17 +243,28 @@ h3 {
 		min-width: 16em;
 		max-width: 18em;
 	}
+	h1{ 
+        text-align: center; 
+		/* Footer */
+    } 
 	footer{ 
         display: flex; 
         justify-content: space-evenly; 
         align-items: center; 
     } 
-    h1{ 
-        text-align: center; 
-    } 
     .social > p { 
         padding-bottom: 3em; 
     } 
+	.villkor > p{ 
+        font-size: 0.8em; 
+    } 
+    .help > p{ 
+        font-size: 0.8em; 
+    } 
+    .social{ 
+        font-size: 0.8em; 
+    } 
+	/* slut på footer */
     .box { 
         max-width: 380px; 
     } 
@@ -263,15 +276,6 @@ h3 {
         width: 13em; 
         height: 2.5em; 
 		cursor: text;
-    } 
-    .villkor > p{ 
-        font-size: 0.8em; 
-    } 
-    .help > p{ 
-        font-size: 0.8em; 
-    } 
-    .social{ 
-        font-size: 0.8em; 
     } 
 	.bild1, .bild2{
 		max-width: 30em;
@@ -285,5 +289,8 @@ h3 {
 	}
 	.ikoner i {
 		cursor: pointer;
+	}
+	.kat ul{
+		font-size: 1.15em;
 	}
 }

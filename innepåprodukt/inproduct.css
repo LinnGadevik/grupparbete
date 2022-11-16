@@ -2,6 +2,7 @@
 	font-family: 'Radio Canada', sans-serif;
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
 }
 
 html {
@@ -41,6 +42,7 @@ header {
 	display: flex;
 	justify-content: space-evenly;
 	flex-wrap: wrap;
+	
 }
 
 .garanti {
@@ -51,6 +53,7 @@ header {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	
 }
 
 .feelwell {
@@ -59,7 +62,7 @@ header {
 }
 
 .search {
-	border: 1px solid grey;
+	border: 1px solid #414149;
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
@@ -68,17 +71,20 @@ header {
 	margin-top: 2.5em;
 	border-radius: 5px;
 	padding-left: 1em;
+	cursor: text;
 }
 
 .kat>ul {
 	margin: 1em 0 1em 1em;
 	font-weight: bold;
 	text-align: center;
+	padding-bottom: 1em;
 }
 
 ul a {
 	text-decoration: none;
 	color: #414149;
+	
 }
 
 li:last-child {
@@ -349,6 +355,7 @@ li {
 		height: 2.5em;
 		cursor: text;
 	}
+	/* Footer */
 	.villkor>p {
 		font-size: 0.8em;
 	}
@@ -358,11 +365,18 @@ li {
 	.social {
 		font-size: 0.8em;
 	}
-	.huvud a:hover{
-		text-decoration: underline;
-	}
 	.ikoner i{
 		cursor: pointer;
+	}
+	/* slut på footer */
+	.kat ul{
+		font-size: 1.15em;
+	}
+	.kat li:hover{
+		text-decoration: underline;
+	}
+	.huvud a:hover{
+		text-decoration: underline;
 	}
 
 }

@@ -39,7 +39,7 @@ ul {
 }
 .garanti {
 	background-color: #234C9F;
-	width: 90vw;
+	width: 90%;
 	height: 36px;
 	border-radius: 5px;
 	display: flex;
@@ -243,7 +243,7 @@ span{
 }
 
 /* slut på footer */
-@media (min-width: 650px){
+@media (min-width: 750px){
 	.input {
 		border: 1px solid #414149;
 		width: 40em;
@@ -252,10 +252,10 @@ span{
 		height: 6em;
 	    margin: 1em;
 	}
-	.search{
+	.search {
 		width: 13em;
-	    height: 2.5em;
-		
+		height: 2.5em;
+		cursor: text;
 	}
 	.villkor > p{
 		font-size: 0.8em;

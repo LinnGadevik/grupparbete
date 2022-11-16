@@ -2,6 +2,7 @@
 	font-family: 'Radio Canada', sans-serif;
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
 }
 html{
 	height: 100%;
@@ -61,7 +62,7 @@ ul {
 	
 }
 .search {
-	border: 1px solid grey;
+	border: 1px solid #414149;
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
@@ -288,6 +289,9 @@ h3 {
 	}
 	.social{
 	    font-size: 0.8em;
+	}
+	.kat ul{
+		font-size: 1.15em;
 	}
 	
 }
