@@ -268,5 +268,13 @@ span{
 	.social{
 	    font-size: 0.8em;
 	}
-	
+	.kat ul{
+		font-size: 1.15em;
+	}
+	.kat li:hover{
+		text-decoration: underline;
+	}
+	.social i:hover{
+		cursor: pointer;
+	}
 }
