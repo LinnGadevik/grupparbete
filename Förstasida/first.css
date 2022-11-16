@@ -14,6 +14,94 @@ body{
 	background-color: #F3F4FB;
 	
 }
+/* Header */
+header { 
+    display: flex; 
+    flex-direction: column; 
+    max-width: 100%; 
+    align-items: center; 
+    justify-content: center; 
+} 
+.loggaochsearch { 
+    width: 90vw; 
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-between; 
+} 
+ul { 
+    width: 90vw; 
+    list-style-type: none; 
+    display: flex; 
+    justify-content: space-evenly; 
+    margin-bottom: 1em; 
+    flex-wrap: wrap;
+} 
+.garanti { 
+    background-color: #234C9F; 
+    width: 90%; 
+    height: 36px; 
+    border-radius: 5px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+} 
+.feelwell { 
+    height: 4.5em; 
+    margin: 1em; 
+} 
+.garanti > p { 
+    text-align: center; 
+} 
+.search { 
+    border: 1px solid grey; 
+    display: flex; 
+    justify-content: flex-start; 
+    align-items: center; 
+    width: 10em; 
+    height: 2em; 
+    margin-top: 2.5em; 
+    border-radius: 5px; 
+    padding-left: 1em; 
+} 
+
+ul li{ 
+    margin: 1em 0 1em 1em; 
+    font-weight: bold; 
+    text-align: center; 
+    position: ; 
+} 
+ul a{ 
+    text-decoration: none; 
+    color: #414149; 
+} 
+ul li:hover{ 
+    text-decoration: underline; 
+} 
+li:last-child { 
+    font-weight: 500; 
+} 
+.ri-account-circle-line { 
+    font-weight: 400; 
+    font-size: 1.5em; 
+    text-align: center; 
+} 
+.garanti > p { 
+    color: #F3F4FB; 
+} 
+.ri-hand-heart-line { 
+    font-size: 1.5em; 
+    padding-right: 0.5em; 
+    color: #F3F4FB; 
+} 
+
+.konto{ 
+    margin-bottom: 0.5em; 
+} 
+
+a > .konto { 
+    color: #234C9F; 
+} 
+/* Slut på Header */
 .bild1, .bild2{
 	max-width: 25em;
 	display: flex;
@@ -27,18 +115,21 @@ h1{
 	text-align: center;
 	margin-top: 0.5em;
 }
-p{
-	margin: 1em 1em;
+.text p{
+	margin-top: 1.5em;
 }
 .text{
 	text-align: center;
+	min-width: 16em;
+	max-width: 18em;
 }
 .main-container {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	text-align: center;
+	margin: 3em 0em 5em 0em;
+	width: 100%;
 }
 .box1, .box2 {
 	max-width: 25em;
@@ -46,21 +137,93 @@ p{
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	margin: 2em 1em;
+	margin: 2em 0em 2em 0em;
 }
 .bild2{
 	filter: brightness(70%)
 }
-@media (min-width: 650px) {
+.main-container  p {
+	color: #414149;
+}
+/* Footer */
+footer {
+	background-color: #414149;
+	color: #F3F4FB;
+	padding: 1em 0em 1em 0em;
+	bottom: 0;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	margin-top: auto;
+	min-height: 10em;
+	min-width: 100%;
+
+}
+
+.villkor {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-wrap: nowrap;
+}
+
+.social {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	grid-column: 2 / 4;
+	flex-wrap: nowrap;
+}
+
+.help {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-shrink: 1;
+}
+
+.ikoner {
+	justify-content: space-between;
+	align-items: center;
+	font-size: 28px;
+
+}
+
+.ikoner>i {
+	padding: 0.5em;
+}
+
+.villkor>p {
+	font-size: 10px;
+	margin: 0.5em;
+}
+
+.help>p {
+	font-size: 10px;
+	margin: 0.5em;
+}
+
+.villkor>h3 {
+	font-size: 1em;
+}
+
+.help>h3 {
+	font-size: 1em;
+}
+
+.social>p {
+	font-size: 12px;
+}
+
+h3 {
+	margin-bottom: 0.5em;
+}
+/* Slut på footer */
+@media (min-width: 750px) {
 	.bild1, .bild2{
 		border-radius: 5px;
-	}
-	.main-container {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		text-align: center;
 	}
 	.box1{
 		flex-direction: row;
@@ -78,5 +241,49 @@ p{
 		min-width: 16em;
 		max-width: 18em;
 	}
-
+	footer{ 
+        display: flex; 
+        justify-content: space-evenly; 
+        align-items: center; 
+    } 
+    h1{ 
+        text-align: center; 
+    } 
+    .social > p { 
+        padding-bottom: 3em; 
+    } 
+    .box { 
+        max-width: 380px; 
+    } 
+    .feelwell{ 
+        height: 6em; 
+        margin: 1em; 
+    } 
+    .search{ 
+        width: 13em; 
+        height: 2.5em; 
+		cursor: text;
+    } 
+    .villkor > p{ 
+        font-size: 0.8em; 
+    } 
+    .help > p{ 
+        font-size: 0.8em; 
+    } 
+    .social{ 
+        font-size: 0.8em; 
+    } 
+	.bild1, .bild2{
+		max-width: 30em;
+	}
+	.text {
+		margin: 0 3em 0 3em;
+		text-align: start;
+	}
+	h1{
+		text-align: start;
+	}
+	.ikoner i {
+		cursor: pointer;
+	}
 }
