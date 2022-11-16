@@ -1,0 +1,368 @@
+* {
+	font-family: 'Radio Canada', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	height: 100%;
+	min-width: 400px;
+}
+
+body {
+	min-height: 100%;
+	width: 100%;
+	min-width: 400px;
+	background-color: #F3F4FB;
+	display: flex;
+	flex-direction: column;
+	box-sizing: border-box;
+}
+
+header {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+	margin-right: 0;
+}
+
+.loggaochsearch {
+	width: 90vw;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.kat>.huvud {
+	width: 90vw;
+	list-style-type: none;
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
+
+.garanti {
+	background-color: #234C9F;
+	width: 90vw;
+	height: 36px;
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.feelwell {
+	height: 4.5em;
+	margin: 1em;
+}
+
+.search {
+	border: 1px solid grey;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	width: 10em;
+	height: 2em;
+	margin-top: 2.5em;
+	border-radius: 5px;
+	padding-left: 1em;
+}
+
+.kat>ul {
+	margin: 1em 0 1em 1em;
+	font-weight: bold;
+	text-align: center;
+}
+
+ul a {
+	text-decoration: none;
+	color: #414149;
+}
+
+li:last-child {
+	font-weight: 500;
+}
+
+.ri-account-circle-line {
+	font-weight: 400;
+	font-size: 1.5em;
+	text-align: center;
+}
+
+.garanti>p {
+	color: #F3F4FB;
+}
+
+.ri-hand-heart-line {
+	font-size: 1.5em;
+	padding-right: 0.5em;
+	color: #F3F4FB;
+}
+
+.konto {
+	margin-bottom: 0.5em;
+}
+
+a>.konto {
+	color: #234C9F;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+}
+
+h1 {
+	color: #234C9F;
+	margin: 1em 0 1em 0;
+	text-align: center;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+.huvudbild {
+	display: flex;
+	justify-content: center;
+}
+
+.bild1 {
+	box-shadow: 1px 1px 1px 1px lightgrey;
+	border-radius: 5px;
+	height: 380px;
+}
+
+.smallpics {
+	border-radius: 5px;
+	height: 115px;
+	margin: 0.5em;
+	box-shadow: 1px 1px 1px 1px lightgrey;
+}
+
+.underbilder {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 1em;
+}
+
+button {
+	font-size: 1em;
+	font-weight: 500;
+	padding: 0.8em 1.9em 0.8em 1.9em;
+	background-color: transparent;
+	background-repeat: no-repeat;
+	border: 1px solid #414149;
+	cursor: pointer;
+	border-radius: 5px;
+	color: #F3F4FB;
+	background-color: #234C9F;
+	max-width: 180px;
+}
+
+.undertext {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 3.5em;
+
+}
+
+.undertext>p {
+	max-width: 310px;
+	text-align: center;
+	margin: 1em 1em 2.5em 1em;
+	color: #414149;
+}
+
+.pris {
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+/* Footer */
+footer {
+	background-color: #414149;
+	color: #F3F4FB;
+	padding: 1em 0.5em 1em 0.5em;
+	bottom: 0;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	margin-top: auto;
+	min-height: 10em;
+	max-width: 100%;
+
+}
+
+.villkor {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-wrap: nowrap;
+}
+
+.social {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	grid-column: 2 / 4;
+	flex-wrap: nowrap;
+}
+
+.help {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-shrink: 1;
+}
+
+.ikoner {
+	justify-content: space-between;
+	align-items: center;
+	font-size: 28px;
+
+}
+
+.ikoner>i {
+	padding: 0.5em;
+}
+
+.villkor>p {
+	font-size: 10px;
+	margin: 0.5em;
+}
+
+.help>p {
+	font-size: 10px;
+	margin: 0.5em;
+}
+
+.villkor>h3 {
+	font-size: 1em;
+}
+
+.help>h3 {
+	font-size: 1em;
+}
+
+.social>p {
+	font-size: 12px;
+}
+
+h3 {
+	margin-bottom: 0.5em;
+}
+
+/* slut på footer */
+.one {
+	visibility: hidden;
+	font-size: 1px;
+}
+
+.pris {
+	margin-top: 3em;
+	list-style: none;
+
+}
+
+.bock {
+	margin-bottom: 1em;
+	text-decoration: none;
+	list-style-type: none;
+}
+
+.bock:before {
+	content: '✓';
+	color: #234C9F;
+	font-size: 1.5em;
+
+}
+
+.frakt {
+	margin-top: 1em;
+}
+
+li {
+	margin: 1em 0.5em 0 0.5em;
+}
+
+@media (min-width: 750px) {
+	.container {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+	}
+	.undertext {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		justify-content: flex-start;
+		padding-left: 2em;
+
+	}
+	.undertext>p {
+		text-align: start;
+		margin: 1em;
+	}
+	button {
+		margin: 1em;
+		max-width: 180px;
+		background-color: #F3F4FB;
+		color: #234C9F;
+		font-weight: 700;
+	}
+	button:hover {
+		background-color: #234C9F;
+		color: #F3F4FB;
+	}
+	.pris {
+		text-align: start;
+		margin: 0;
+	}
+	hr {
+		visibility: visible;
+		width: 90%;
+		margin: auto;
+	}
+	.allabilder {
+		margin-right: 3em;
+	}
+	.one {
+		visibility: visible;
+		font-size: 1.5em;
+		font-weight: bold;
+		margin-left: 0.65em;
+	}
+	.feel {
+		visibility: hidden;
+	}
+	.feelwell {
+		height: 6em;
+		margin: 1em;
+	}
+	.search {
+		width: 13em;
+		height: 2.5em;
+		cursor: text;
+	}
+	.villkor>p {
+		font-size: 0.8em;
+	}
+	.help>p {
+		font-size: 0.8em;
+	}
+	.social {
+		font-size: 0.8em;
+	}
+	.huvud a:hover{
+		text-decoration: underline;
+	}
+	.ikoner i{
+		cursor: pointer;
+	}
+
+}
