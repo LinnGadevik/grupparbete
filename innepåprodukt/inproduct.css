@@ -296,7 +296,6 @@ li {
 		flex-direction: row;
 		justify-content: center;
 	}
-
 	.undertext {
 		display: flex;
 		flex-direction: column;
@@ -305,76 +304,65 @@ li {
 		padding-left: 2em;
 
 	}
-
 	.undertext>p {
 		text-align: start;
 		margin: 1em;
 	}
-
 	button {
 		margin: 1em;
 		max-width: 180px;
 		background-color: #F3F4FB;
 		color: #234C9F;
 		font-weight: 700;
-
 	}
-
 	button:hover {
 		background-color: #234C9F;
 		color: #F3F4FB;
 	}
-
 	.pris {
 		text-align: start;
 		margin: 0;
 	}
-
 	hr {
 		visibility: visible;
 		width: 90%;
 		margin: auto;
-
 	}
-
 	.allabilder {
 		margin-right: 3em;
 	}
-
 	.one {
 		visibility: visible;
 		font-size: 1.5em;
 		font-weight: bold;
 		margin-left: 0.65em;
 	}
-
 	.feel {
 		visibility: hidden;
 	}
-
 	.feelwell {
 		height: 6em;
 		margin: 1em;
 	}
-
 	.search {
 		width: 13em;
 		height: 2.5em;
-
+		cursor: text;
 	}
-
 	.villkor>p {
 		font-size: 0.8em;
-
 	}
-
 	.help>p {
 		font-size: 0.8em;
-
 	}
-
 	.social {
 		font-size: 0.8em;
+	}
+	.huvud a:hover{
+		text-decoration: underline;
+	}
+	.ikoner i{
+		cursor: pointer;
 	}
 
 }
