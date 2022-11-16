@@ -275,6 +275,7 @@ h3 {
 	.search{
 		width: 13em;
 	    height: 2.5em;
+		cursor: text;
 		
 	}
 	.villkor > p{
