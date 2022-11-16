@@ -31,19 +31,22 @@ ul {
 	margin-bottom: 1em;
 	flex-wrap: wrap;
 }
-.garanti {
-	background-color: #234C9F;
-	width: 90vw;
-	height: 36px;
-	border-radius: 5px;
+.garanti { 
+    background-color: #234C9F; 
+    width: 90%; 
+    height: 36px; 
+    border-radius: 5px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
 }
 .feelwell {
 	height: 4.5em;
 	margin: 1em;
 }
-.garanti > p {
-	text-align: center;
-	margin-top: 0.5em;
+.garanti > p { 
+    text-align: center; 
+	color: #F3F4FB;
 }
 .search {
 	border: 1px solid grey;
@@ -71,4 +74,9 @@ li:last-child {
 .ri-shopping-cart-2-line {
 	font-weight: 600;
 	
+}
+.ri-hand-heart-line { 
+    font-size: 1.5em; 
+    padding-right: 0.5em; 
+    color: #F3F4FB; 
 }
