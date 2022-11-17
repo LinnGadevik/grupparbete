@@ -105,10 +105,13 @@ a > .konto {
 } 
 /* Slut på Header */
 .bild1, .bild2{
-	max-width: 25em;
+	max-width: 28em;
+	min-width: 24em;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	border-radius: 5px;
+	flex
 }
 h1{
 	color: #234C9F;
@@ -281,7 +284,7 @@ h3 {
 		max-width: 30em;
 	}
 	.text {
-		margin: 0 3em 0 3em;
+		margin: 0 4em 0 4em;
 		text-align: start;
 	}
 	h1{
