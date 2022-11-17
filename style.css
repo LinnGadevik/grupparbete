@@ -1,11 +1,26 @@
+*{
+    font-family: 'Radio Canada', sans-serif;
+    margin: 0;
+    padding: 0;
 
+}
+body{
+	min-height: 100%;
+	width: 100%;
+	min-width: 400px;
+	background-color: #F3F4FB
+}
+html{
+    height: 100%;
+    min-width: 400px;
+}
 
 .grid {
-    position: relative;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-   
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
 }
 
 header { 
@@ -93,65 +108,170 @@ li:last-child {
 a > .konto { 
     color: #234C9F; 
 } 
-body{
-	min-height: 100%;
-	width: 100%;
-	min-width: 400px;
-	background-color: #F3F4FB
+.abbe, .linn, .robin {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	padding: 1em;
 }
-.conteiner { 
-   justify-content: flex-start;
+
+.textomoss {
+	text-align: start;
+	margin-left: 1em;
 }
-.grid > * {
-	border: 1px solid gray;
+.headshot {
+    width: 10em;
+    height: 10em;
+	flex-shrink: 0;
+	border-radius: 5px;
+}
+h2 {
+    color: #234C9F;
+	padding: 1em;
 	text-align: center;
-	padding: 8em;
-	margin: 8em;
 }
-.div  > * {
-	border: 1px solid gray;
-	text-align: start;
-	padding: 8em;
-	margin: 20em;
-	border-radius: 5px;
-}
-
-
-.div  > * {
-	border: 1px solid gray;
-	text-align: start;
-	padding: 8em;
-	margin: 20em;
-	border-radius: 5px;
-}
- *{
-    font-family: 'Radio Canada', sans-serif;
-    margin: 0;
-    padding: 0;
-	color: #234C9F;
-}
-
-	p.detail { color:#414149;
-		
-		font-family:'Radio Canada', sans-serif;
-		font-size:20;
-		text-align: start;
-	 }
-	 .conteiner { 
-		justify-content: flex-end;
-	 }
 
 .wrapper {
-      flex-wrap: wrap;
-   justify-content: space-around;
 	border-radius: 5px;
-	text-align: center;
-	
+    min-width: 23em;
+	margin: 2em 1em;
+	max-width: 35em;
 }
-@media (min-width:650px) {
+.wrapper2{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	flex-shrink: 1;
+	border-radius: 5px;
+	margin: 2.5em 1em;
+	border: 1px solid #414149;
+	padding: 2em;
+}
+.wrapper2 p{
+	padding: 1em;
+	color: #414149;
+}
+.wrapper2 > h2{
+	color: #234C9F
+}
+
+.karta{
+	border-radius: 5px;
+	margin-left: 0.5em;
+	margin-right: 0.5em;
+	max-width: 20em;
+}
+.wrapper2:last-child{
+	padding-bottom: 2em;
+}
+.titel{
+	color: #234C9F;
+
+	font-weight: bold;
+}
+footer {
+	background-color: #414149;
+	color: #F3F4FB;
+	padding: 1em 0em 1em 0em;
+	bottom: 0;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	margin-top: auto;
+	min-height: 10em;
+	min-width: 100%;
+
+}
+
+.villkor {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-wrap: nowrap;
+}
+
+.social {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	grid-column: 2 / 4;
+	flex-wrap: nowrap;
+}
+
+.help {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-shrink: 1;
+}
+
+.ikoner {
+	justify-content: space-between;
+	align-items: center;
+	font-size: 28px;
+
+}
+
+.ikoner>i {
+	padding: 0.5em;
+}
+
+.villkor>p {
+	font-size: 10px;
+	margin: 0.5em;
+}
+
+.help>p {
+	font-size: 10px;
+	margin: 0.5em;
+}
+
+.villkor>h3 {
+	font-size: 1em;
+}
+
+.help>h3 {
+	font-size: 1em;
+}
+
+.social>p {
+	font-size: 12px;
+}
+
+h3 {
+	margin-bottom: 0.5em;
+}
+
+@media (min-width:850px) {
     .wrapper {
-      border-radius: 5px;  
+      border-radius: 5px;
+    }  
+	.wrapper2 {
+		max-width: 23em;
+		margin-bottom: 0;
+	}
+      footer{ 
+        display: flex; 
+        justify-content: space-evenly; 
+        align-items: center; 
+    } 
+ .social > p { 
+        padding-bottom: 3em; 
+    } 
+ .villkor > p{ 
+        font-size: 0.8em; 
+    } 
+    .help > p{ 
+        font-size: 0.8em; 
+    } 
+    .social{ 
+        font-size: 0.8em; 
     }
-    
-}
- 
+	.grid{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+	}
+    }
