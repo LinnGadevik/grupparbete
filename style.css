@@ -22,6 +22,21 @@ html{
     width: 100%;
     height: 100%;
 }
+.grid h3{
+    color: #414149;
+}
+.beskrivning{
+    width: 25em;
+    align-items: center;
+    padding: 0 0 1em 1.5em;
+
+}
+.wrapper2 p{
+    font-weight: 600;
+}
+.detail{
+    margin-bottom: 0.5em;
+}
 
 header { 
     display: flex; 
@@ -53,6 +68,9 @@ ul {
     align-items: center; 
     justify-content: center; 
 } 
+.titel{
+    padding: 0 0 0.5em 0;
+}
 .feelwell { 
     height: 4.5em; 
     margin: 1em; 
@@ -70,6 +88,7 @@ ul {
     margin-top: 2.5em; 
     border-radius: 5px; 
     padding-left: 1em; 
+    cursor: text;
 } 
 
 ul li{ 
@@ -124,11 +143,12 @@ a > .konto {
     height: 10em;
 	flex-shrink: 0;
 	border-radius: 5px;
+    object-fit: cover;
 }
 h2 {
     color: #234C9F;
 	padding: 1em;
-	text-align: center;
+	
 }
 
 .wrapper {
@@ -216,6 +236,7 @@ footer {
 
 .ikoner>i {
 	padding: 0.5em;
+    cursor: pointer;
 }
 
 .villkor>p {
