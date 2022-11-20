@@ -23,11 +23,13 @@ body{
     width: 400px;
     background: rgba(241, 242, 246, 0.566);
     border-radius: 5px;
+    text-decoration: none;
 }
 .center h1{
     text-align: center;
     padding: 0 0 20px 0;
     border-bottom: 1px solid rgb(168, 164, 164);
+    color: #414149;
 }
 .center form{
     padding: 0 40px;
