@@ -105,8 +105,8 @@ a > .konto {
 } 
 /* Slut på Header */
 .bild1, .bild2{
-	max-width: 28em;
-	min-width: 24em;
+	max-width: 18em;
+	min-width: 22em;
 	display: flex;
 	justify-content: center;
 	align-items: center;
